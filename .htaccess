@@ -1,0 +1,5 @@
+<IfModule mod_headers.c>
+  <FilesMatch "\.br$">
+    Header set Content-Encoding "gzip"
+  </FilesMatch>
+</IfModule>
