@@ -23,6 +23,6 @@ else if (typeof exports === 'object')
 
 
 /*
-HTTP Response Header "Content-Type" configured incorrectly on
- the server for file Build/build.wasm.gz , should be "application/wasm". 
- Startup time performance will suffer.*/ 
+HTTP Response Header "Content-Type" configured 
+incorrectly on the server for file Build/build.wasm.gz ,
+ should be "application/wasm". Startup time performance will suffer..*/ 
