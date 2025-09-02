@@ -22,3 +22,7 @@ else if (typeof exports === 'object')
   exports["unityFramework"] = unityFramework;
 
 
+/*
+HTTP Response Header "Content-Type" configured incorrectly on
+ the server for file Build/build.wasm.gz , should be "application/wasm". 
+ Startup time performance will suffer.*/ 

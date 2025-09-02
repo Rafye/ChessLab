@@ -4,6 +4,6 @@
   AddType application/gzip .gz
 </FilesMatch>
 <FilesMatch "\.wasm\.gz$">
-  AddType application/wasm .gz
+  AddType Build/wasm .gz
   AddEncoding gzip .gz
 </FilesMatch>
