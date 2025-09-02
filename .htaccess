@@ -3,7 +3,7 @@
   AddType application/octet-stream .gz
 </FilesMatch>
 <FilesMatch "\.wasm\.gz$">
-  AddType application/wasm .gz
+  AddType Build/build//wasm .gz
   AddEncoding gzip .gz
 </FilesMatch>
 
